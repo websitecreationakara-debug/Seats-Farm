@@ -386,6 +386,10 @@ p { margin: 0 0 1em; }
 .cert-card p { color: var(--color-text-light); font-size: 0.9rem; }
 .cert-card a { color: var(--color-primary); font-weight: 600; font-size: 0.88rem; }
 
+/* ---------- SDG icon row ---------- */
+.sdg-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 18px; }
+.sdg-row img { width: 84px; height: 84px; border-radius: 8px; }
+
 /* ---------- Clients strip ---------- */
 .clients-strip {
   display: flex;
